@@ -1,0 +1,42 @@
+@import "tailwindcss";
+@tailwind base;
+  @tailwind components;
+  @tailwind utilities;
+
+  @keyframes slideDown {
+  0% {
+    opacity: 0;
+    transform: translateY(-10%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.animate-slideDown {
+  animation: slideDown 0.3s ease-out;
+}
+
+.animate-fadeIn {
+  animation: fadeIn 0.3s ease-in;
+}
+
+
+/* index.css */
+@media (max-width: 480px) {
+  .Toastify__toast {
+    font-size: 11px !important;
+    padding: 4px 6px !important;
+    width: 150px !important;
+  }
+}

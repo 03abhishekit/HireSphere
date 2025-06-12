@@ -1,0 +1,21 @@
+# Node modules
+Frontend/node_modules/
+Backend/node_modules/
+
+# Logs
+*.log
+
+# dotenv files
+Frontend/.env
+Backend/.env
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Build output (optional)
+Frontend/dist/
+Brontend/build/
+
+Frontend/.gitignore
+Backend/.gitignore
