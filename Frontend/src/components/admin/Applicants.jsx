@@ -24,7 +24,7 @@ const Applicants = () => {
         const res = await axios.get(`${APPLICATION_API_END_POINT}/${params.id}/applicants`, {
           withCredentials: true,
         });
-         console.log("get res", res?.data?.applicants);
+       
         dispatch(setAllApplicants(res?.data?.applicants));
       } catch (error) {
         toast.error(error.response.data.message);

@@ -32,7 +32,7 @@ const JobUpdate = () => {
           withCredentials: true 
         });
         
-        console.log("res",res);
+   
         if (res?.data?.success) {
           const job = res?.data?.job;
           setForm({

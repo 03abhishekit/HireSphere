@@ -9,7 +9,7 @@ import { JOB_API_END_POINT } from '../utils/constant';
 const useGetAllJobs = () => {
   const dispatch = useDispatch();
   const { searchJobByText, filters } = useSelector(store => store.job);
-  console.log(searchJobByText, filters);
+
 
   useEffect(() => {
     const fetchAllJobs = async () => {

@@ -54,7 +54,7 @@ const JobCreate = () => {
         withCredentials: true
       });
 
-      console.log(res);
+      
       if (res?.data?.success) {
         toast.success('Job posted successfully!');
         navigate('/recruiter/jobs');
