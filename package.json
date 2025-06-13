@@ -4,8 +4,9 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "dev": "nodemon app.js",
-    "start": "node app.js",
+    "dev": "nodemon Backend/app.js",
+    "build": "npm install && npm install  --prefix Frontend && npm run build --prefix Frontend",
+     "start": "nodemon Backend/app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],

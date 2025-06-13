@@ -15,7 +15,10 @@ Thumbs.db
 
 # Build output (optional)
 Frontend/dist/
-Brontend/build/
+Backend/build/
 
 Frontend/.gitignore
 Backend/.gitignore
+
+.env
+node_modules
